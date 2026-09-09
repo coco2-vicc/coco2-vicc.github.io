@@ -1,0 +1,46 @@
+{% capture footer_contents %}
+  <img src="{{ '/assets/img/schmidt-sciences-logo.png' | relative_url }}" height="90" width="225" alt="Schmidt Sciences logo" style="filter:brightness(0%) invert(80%);"> <br>
+  {{ site.footer_text }}
+  &copy; Copyright {{ site.time | date: '%Y' }}
+  {{ site.title }}. 
+  <br>
+  <small class="footer-images-citation">
+  {{ site.footer_text_after }}
+  </small>
+  {% if site.impressum_path %}
+    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+  {% endif %}
+  {% if site.last_updated %}
+    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+  {% endif %}
+{% endcapture %}
+
+{% if site.footer_fixed %}
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      {{ footer_contents }}
+    </div>
+  </footer>
+{% else %}
+
+  <footer class="sticky-bottom mt-5" role="contentinfo">
+    <div class="footer-flex">
+      <div class="footer-images">
+        <img src="{{ '/assets/img/footer/plankton24.png' | relative_url }}" alt="">
+        <img src="{{ '/assets/img/footer/plankton21.png' | relative_url }}" alt="">
+        <img src="{{ '/assets/img/footer/plankton14.png' | relative_url }}" alt="">
+        <img src="{{ '/assets/img/footer/plankton2.png' | relative_url }}" alt=""> <!-- for spacing -->
+        <img src="{{ '/assets/img/footer/plankton2.png' | relative_url }}" alt="">
+        <img src="{{ '/assets/img/footer/plankton2.png' | relative_url }}" alt=""> <!-- end spacing -->
+        <img src="{{ '/assets/img/footer/plankton18.png' | relative_url }}" alt="">
+        <img src="{{ '/assets/img/footer/plankton2.png' | relative_url }}" alt="">
+        <img src="{{ '/assets/img/footer/plankton8.png' | relative_url }}" alt="">
+      </div>
+
+      <div class="container footer-center">
+        {{ footer_contents }}
+      </div>
+
+    </div>
+  </footer>
+{% endif %}
