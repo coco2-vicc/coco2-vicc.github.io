@@ -10,7 +10,7 @@ images:
 
 profile:
   align: right
-  #image: subsea_logo.png
+  #image: COCO_logo_final.pgn
   #image_circular: false
   more_info: 
 
@@ -27,70 +27,13 @@ latest_posts:
   scrollable: true
   limit: 3
 ---
-
-SUBSEA (Subtropical Underwater Biogeochemistry and Subsurface Export Alliance) is an [international team](/people) of biogeochemists, plankton ecologists, and oceanographers that seeks to improve understanding of how the marine biosphere will respond to planetary change through detailed studies on the ecological and biogeochemical functioning of the subtropical gyres. SUBSEA is supported by the Schmidt Sciences Foundation as part of the [Ocean Biogeochemistry Virtual Institute](https://www.schmidtsciences.org/obvi/).
-
-**SUBSEA's work is founded on observations from the North Pacific and South Atlantic subtropical gyres.** Subtropical ocean gyres cover more than 20% of Earth’s surface area, making them some of the largest ecosystems on the planet. Despite persistently low concentrations of nutrients, subtropical gyres are important components of the global carbon cycle. Our research focuses on the complex space-time structure of the sunlit portion of the upper ocean, from the sea surface to approximately 200 meters deep.
-
-The backbone of our work relies on shipboard observations in both the North Pacific and South Atlantic subtropical gyres. Our team has expertise in ocean biogeochemistry, remote and autonomous sensing technologies, and mathematical modeling.
-
-**Together, SUBSEA aims to improve mechanistic understanding of how carbon and nutrients move through the photic zone in support of plankton productivity and carbon export. Specifically, we are interested in how nutrient cycling in the poorly studied subsurface habitats of the upper ocean impact plankton productivity and sequestration of carbon dioxide by the subtropical gyres.**
+The ocean is central to the global carbon cycle and provides a critical service to humanity by absorbing more than a quarter of anthropogenic CO<sub>2</sub> emissions every year. Despite tremendous efforts by the global scientific community, the lack of optimal observing tools to date has led to significant uncertainty in the ocean CO<sub>2</sub> sink and left gaps in our understanding of the underlying processes. COCO<sub>2</sub> will rapidly address the knowledge gaps currently preventing progress on constraining the ocean CO<sub>2</sub> sink by implementing a novel and scalable observing approach in the Southern Ocean. We will pair state-of-the-art technology in air-sea CO<sub>2</sub> observing on uncrewed surface vehicles (USVs) with adaptive, flexible observing design informed by our evolving understanding, explainable artificial intelligence methods, and Observing System Simulation Experiments (OSSEs) with numerical models. This new, open-source approach for optimizing ocean observing in the Southern Ocean has potential to accelerate solutions for a wide range of ocean observing challenges. COCO<sub>2</sub> will deliver critical data targeted to reduce the observation-based ocean CO<sub>2</sub> sink estimates in the annual Global Carbon Budget by 25% and advance our understanding of the processes driving air-sea CO<sub>2</sub> flux variability.
 
 <p> <br> </p>
 
-## Learn More About SUBSEA
+## Modeling
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-  <iframe
-    src="https://www.youtube.com/embed/EPcPzG4f59Q"
-    title="SUBSEA Expedition Video"
-    style="position: absolute; top:0; left:0; width:100%; height:100%;"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
-</div>
-
-*Credit: Schmidt Ocean Institute*
-
-This video features research activities and field operations from the recent SUBSEA expedition in the South Atlantic Subtropical Gyre, aboard the R/V Falkor (too).
-
-[Explore updates, videos, and photos from the South Atlantic expedition here.](/subsea-part-1/)
-
-<div style="height: 40px;"></div>
-
-## Partner Institutions
-
-<div class="row mt-3 align-self-center">
-  <div class="col-sm mt-3 mt-md-0 align-self-center">
-  {% include figure.liquid loading="eager" path="assets/img/um_logo.png" class="img-fluid logo-fig" alt="University of Montana logo" width="70%" %} 
-  </div>
-  <div class="col-sm mt-3 mt-md-0 align-self-center">
-  {% include figure.liquid loading="eager" path="assets/img/uhm_logo.png" class="img-fluid logo-fig" alt="University of Hawai'i at Mānoa logo" width="70%" %}
-  </div>
-  <div class="col-sm mt-3 mt-md-0 align-self-center">
-  {% include figure.liquid loading="eager" path="assets/img/umiami_logo.png" class="img-fluid logo-fig" alt="University of Miami logo" width="50%" %}
-  </div>
-</div>
-<div class="row mt-3 align-self-center">
-  <div class="col-sm mt-3 mt-md-0 align-self-center">
-  {% include figure.liquid loading="eager" path="assets/img/inidep_logo.png" class="img-fluid logo-fig" alt="Instituto Nacional de Investigación y Desarrollo Pesquero logo" width="70%" %} 
-  </div>
-  <div class="col-sm mt-3 mt-md-0 align-self-center">
-  {% include figure.liquid loading="eager" path="assets/img/uct_logo.png" class="img-fluid logo-fig" alt="University of Cape Town logo" width="60%" %}
-  </div>
-  <div class="col-sm mt-3 mt-md-0 align-self-center">
-  {% include figure.liquid loading="eager" path="assets/img/osu_logo.png" class="img-fluid logo-fig" alt="Oregon State University logo" width="70%" %}
-  </div>
-</div>
-<div class="row mt-3 align-self-center">
-  <div class="col-sm mt-3 mt-md-0 align-self-center">
-  </div>
-  <div class="col-sm mt-3 mt-md-0 align-self-center">
-  {% include figure.liquid loading="eager" path="assets/img/carnegie_logo.png" class="img-fluid logo-fig" alt="Carnegie Institution for Science logo" width="70%"%}
-  </div> 
-  <div class="col-sm mt-3 mt-md-0 align-self-center">
-  </div>
-</div>
+We have developed a proposed USV sampling strategy (Figure 1) based on observing system simulation experiments (OSSEs) using ocean models as a testbed (Heimdal et al., 2024). Testbeds allow assessment of reconstruction skill in the context of the available observations and the machine learning (ML) approach for interpolating sparse observations (Gloege et al., 2021). In a testbed, model pCO<sub>2</sub> output is sampled as the real-world observations and modeled driver data, such temperature, salinity, and ocean color, are used to train and reconstruct full-field pCO2. Comparison of the testbed-based reconstruction to the original full-field pCO<sub>2</sub> output indicates reconstruction skill. Using our pCO<sub>2</sub>-residual methodology (Bennington et al., 2022) with only the ship-based observations available in the Surface Ocean CO<sub>2</sub> Atlas (SOCAT), the mean 2018-2022 global ocean sink is too large by 0.2 Gt C/yr. With the additional USV sampling shown in Figure 1 (right), the global bias is reduced by 60%, to 0.08 Gt C/yr. In the Southern Ocean, the SOCAT-only bias (0.1 Gt C/yr) is reduced by 70%. Adding four USVs to the Southern Ocean can be expected to yield a 25% reduction in the GCB total estimated ocean CO<sub>2</sub> sink (SOCEAN) uncertainty of ±0.4 Gt C/yr. 
 
 <p> <br> </p>
 
@@ -98,6 +41,23 @@ This video features research activities and field operations from the recent SUB
 
 {% include figure.liquid
 loading="eager"
-path="assets/img/about_gallery/about_gallery_0.jpg"
+path="assets/img/about_gallery/COCO_map_Heimdal2024.png"
 class="img-fluid rounded z-depth-1 mx-auto d-block w-100"
 %}
+
+Figure 1. Reducing bias in air-sea CO<sub>2</sub> fluxes by adding four USVs in austral winter. (left) In our model testbed, we perform an OSSE to assess bias of 2018-2022 air-sea CO<sub>2</sub> fluxes reconstructed with machine learning. Significant reconstruction biases (green) are found in the Southern Ocean with only ship-based SOCAT sampling (light gray for 1-3 months of ship sampling, dark gray for 4+ months in 2018-2022) . (right) Adding four USVs (red) from mid-May through mid-October in these 5 years significantly reduces these biases. In this proposed work, we would re-optimize the USV sampling pattern each year, which may include targeting additional regions of bias in the Southern Ocean.
+
+<p> <br> </p>
+
+As part of this project, the ML techniques developed at Columbia/LDEO and CSIR/SU will be used to build interpolated maps of surface ocean pCO<sub>2</sub> based on predictor parameters with global coverage from satellites, like sea surface temperature and ocean color. Changes to the empirical relationships between predictor variables and new pCO<sub>2</sub> observations will be interrogated with XAI methods to probe the evolving relationships of physical and biological drivers, providing insights on the underlying processes and modes of variability. Taking into account these insights, OSSEs with these two methods will be performed to optimize our sampling strategy, allowing adjustments to the following year’s observational campaign. Our adaptive observing methodology will be repeated annually to rapidly demonstrate when and where data are most needed to quickly and efficiently reduce ocean CO<sub>2</sub> sink uncertainty. We will also make our cloud-based OSSE platform freely-available to other groups developing ML estimates of SOCEAN so they can contribute their ML methodologies to further improve these assessments.
+
+<p> <br> </p>
+
+## Observing
+
+COCO<sub>2</sub> will deploy four USVs in the Southern Ocean during austral winter months from 2026 to 2030 to make direct measurements of air-sea CO<sub>2</sub> and related variables. We will plan USV routes each year using OSSEs to determine which data can most improve machine learning based data products, with the first year guided by the design of Heimdal et al. 2024 (Figure 1). The data collected in COCO2 will be shared with minimal latency via the SOCAT data product so that everyone can work with them to reduce critical uncertainties in the ocean carbon sink. COCO<sub>2</sub> data will first appear in SOCAT version 2027.
+
+
+
+
+
