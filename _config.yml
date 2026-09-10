@@ -2,22 +2,22 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: SUBSEA # the website title (if blank, full name will be used instead)
-first_name: Subtropical Underwater Biogeochemistry and Subsurface Export Alliance
+title: COCO<sub>2</sub> # the website title (if blank, full name will be used instead)
+first_name: Constraining Ocean Carbon with Optimized Observing
 middle_name: 
 last_name: 
 contact_note: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  SUBSEA seeks to better understand ocean biogeochemical cycles and build capacity through international collaborations and education.
+  COCO<sub>2</sub> will reduce uncertainty in the ocean CO<sub>2</sub> sink by deploying advanced, model- and AI-informed adaptive observing missions in the Southern Ocean.
 footer_text: > # this text shows up before the copyright info
-  SUBSEA is funded by <a href="https://schmidtsciences.org/" target="_blank">Schmidt Sciences</a>.
+  COCO<sub>2</sub> is funded by <a href="https://schmidtsciences.org/" target="_blank">Schmidt Sciences</a>.
 footer_text_after: > # this text shows up after the copyright info, on a new line and slightly smaller
-  Plankton images from <a href="https://ifcbdb2.soest.hawaii.edu/">Station ALOHA IFCB</a>.
+#  Plankton images from <a href="https://ifcbdb2.soest.hawaii.edu/">Station ALOHA IFCB</a>.
 keywords:  # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: subsea_logo_small.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: COCO_logo_FINAL.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://subsea-ocean.github.io # the base hostname & protocol for your site
+url: https://coco2-vicc.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root 
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -63,16 +63,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
-# and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: G-CM083QSS2C # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
-openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 
-# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
-bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Collections
