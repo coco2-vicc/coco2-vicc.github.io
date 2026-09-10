@@ -30,19 +30,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications";
           },
+        },{id: "nav-capacity-sharing",
+          title: "Capacity Sharing",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/data";
+          },
         },{id: "nav-news",
           title: "news",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/news";
-          },
-        },{id: "nav-data",
-          title: "data",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/data";
           },
         },{
       id: 'light-theme',
