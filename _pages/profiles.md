@@ -1,10 +1,10 @@
 ---
 layout: profiles
 permalink: /people
-title: people
+title: Team
 description:
 nav: true
-nav_order: 5
+nav_order: 2
 
 display_categories:
   - principal investigators
