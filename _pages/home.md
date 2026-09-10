@@ -6,6 +6,7 @@ nav: false
 nav_order: 0
 subtitle:  
 ---
+<!--
 <style>
 .video-background {
   position: fixed;
@@ -179,3 +180,4 @@ subtitle:
     </div>
   </div>
 </div>
+-->
