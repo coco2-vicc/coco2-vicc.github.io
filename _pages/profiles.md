@@ -5,11 +5,13 @@ title: Team
 description:
 nav: true
 nav_order: 2
-
+<!--
 display_categories:
   - principal investigators
   - postdoctoral fellows and graduate students
   - staff
+
+
 
 profiles:
   - align: left
@@ -18,5 +20,5 @@ profiles:
     content: people/church.md
     category: principal investigators
 
- 
+ -->
 ---
