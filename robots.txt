@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://coco2-vicc.github.io/sitemap.xml
