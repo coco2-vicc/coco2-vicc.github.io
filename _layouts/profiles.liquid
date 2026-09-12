@@ -11,7 +11,7 @@ layout: page
   </div>
   {% for category in page.display_categories %}
     <h2 class="category" id={{ category | replace: ' ', '-' }}>{{ category }}</h2>
-  {% assign categorized_profiles = page.profiles | where: "category", category %}
+  {% assign categorized_profiles = site.data.profiles | where: "category", category %}
   <article>
     {% if categorized_profiles %}
       {% for profile in categorized_profiles %}
@@ -31,8 +31,7 @@ layout: page
 
         <div class="clearfix">
           {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
+            {{ profile.content | markdownify }}
           {% else %}
             {{ content }}
           {% endif %}
@@ -44,9 +43,9 @@ layout: page
 
 {% else %}
   <article>
-    {% if page.profiles %}
-      {% for profile in page.profiles %}
-        <hr>
+    {% if site.data.profiles %}
+      {% for profile in site.data.profiles %}
+        {% unless forloop.first %}<hr>{% endunless %}
         <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
           {% if profile.image %}
             {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
@@ -62,8 +61,7 @@ layout: page
 
         <div class="clearfix">
           {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
+            {{ profile.content | markdownify }}
           {% else %}
             {{ content }}
           {% endif %}
