@@ -8,7 +8,7 @@ subtitle:
 ---
 
 <div class="text-center mb-4">
-  <img src="{{ '/assets/img/COCO_logo_final.png' | relative_url }}" alt="COCO2 Logo" style="max-width: 250px; height: auto;">
+  <img src="{{ '/assets/img/COCO_logo_FINAL.png' | relative_url }}" alt="COCO2 Logo" style="max-width: 250px; height: auto;">
 </div>
 
 COCO<sub>2</sub> will reduce uncertainty in the ocean CO2 sink by deploying advanced, model- and AI-informed adaptive observing missions in the Southern Ocean
