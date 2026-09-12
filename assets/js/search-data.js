@@ -35,7 +35,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/data";
+            window.location.href = "/capacitysharing";
           },
         },{id: "nav-news",
           title: "news",
