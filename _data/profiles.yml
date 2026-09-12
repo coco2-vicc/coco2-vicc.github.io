@@ -16,13 +16,13 @@
 
     *Columbia University and Lamont-Doherty Earth Observatory, United States*
 
-    [Personal Website](https://galenmckinley.github.io) | [Lamont Profile](https://lamont.columbia.edu)
+    [Personal Website](https://galenmckinley.github.io) | [Lamont Profile](https://lamont.columbia.edu/directory/galen-mckinley)
 
 - align: right
   image: sandy-thomalla.jpg
   content: |
     ### Sandy Thomalla
-
+    **Institution Lead**
     *Southern Ocean Carbon-Climate Observatory (SOCCO), CSIR, South Africa*
 
     [SOCCO Team Page](https://socco.org.za/about#team)
@@ -31,7 +31,7 @@
   image: elizabeth-shadwick.jpg
   content: |
     ### Elizabeth Shadwick
-
+    **Institution Lead**
     *CSIRO / Australian Antarctic Program Partnership (AAPP), Australia*
 
     [CSIRO Profile](https://people.csiro.au/S/E/Elizabeth-Shadwick)
@@ -127,6 +127,15 @@
     [Lamont Profile](https://lamont.columbia.edu/directory/amanda-r-fay)
 
 - align: right
+  image: isabelle-giddy.jpg
+  content: |
+    ### Isabelle Giddy
+
+    *Southern Ocean Carbon-Climate Observatory (SOCCO), CSIR, South Africa*
+
+    [Personal Website](https://isgiddy.github.io/)
+
+- align: left
   image: sarah-nickford.jpg
   content: |
     ### Sarah Nickford
