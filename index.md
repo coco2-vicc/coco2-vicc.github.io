@@ -1,11 +1,14 @@
 ---
 layout: page
-title: "home" 
+title: "Constraining Ocean Carbon with Optimized Observing" 
 permalink: /
 nav: false
 nav_order: 0
 subtitle:  
 ---
+
+COCO<sub>2</sub> will reduce uncertainty in the ocean CO2 sink by deploying advanced, model- and AI-informed adaptive observing missions in the Southern Ocean
+
 <!--
 <style>
 .video-background {
