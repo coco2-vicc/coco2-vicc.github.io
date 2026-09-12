@@ -10,7 +10,7 @@ contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   COCO<sub>2</sub> will reduce uncertainty in the ocean CO<sub>2</sub> sink by deploying advanced, model- and AI-informed adaptive observing missions in the Southern Ocean.
 footer_text: > # this text shows up before the copyright info
-  COCO<sub>2</sub> is funded by <a href="https://schmidtsciences.org/" target="_blank">Schmidt Sciences</a>.
+  COCO<sub>2</sub> is funded by <a href="https://www.schmidtsciences.org/vicc/" target="_blank">Schmidt Sciences Virtual Institute for the Carbon Cycle</a>.
 footer_text_after: > # this text shows up after the copyright info, on a new line and slightly smaller
 #  Plankton images from <a href="https://ifcbdb2.soest.hawaii.edu/">Station ALOHA IFCB</a>.
 keywords:  # add your own keywords or leave empty
