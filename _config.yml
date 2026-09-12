@@ -48,7 +48,7 @@ posts_in_search: false
 header_pages:
   - about.md
   - team.md
-  - data.md
+  - capacitysharing.md
   - news.md
   - publications.md
 
