@@ -1514,3 +1514,27 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+/* Hard Override for Footer Styling */
+footer,
+footer.fixed-bottom,
+footer.sticky-bottom {
+  background-color: var(--global-footer-bg-color, #a6c3d3) !important;
+  background-image: none !important; /* Removes the black fade gradient */
+  box-shadow: none !important;
+  color: var(--global-footer-text-color, #000000) !important;
+
+  .container {
+    background: transparent !important;
+    color: var(--global-footer-text-color, #000000) !important;
+  }
+
+  a {
+    color: var(--global-footer-link-color, #193562) !important;
+    text-decoration: underline;
+
+    &:hover {
+      color: var(--global-hover-color) !important;
+    }
+  }
+}
