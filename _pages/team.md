@@ -8,5 +8,3 @@ nav_order: 2
 profiles: site.data.profiles
 ---
 
-## Debug Output
-Raw Profiles Data: {{ site.data.profiles | inspect }}
