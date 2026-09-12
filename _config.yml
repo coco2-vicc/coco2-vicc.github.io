@@ -45,6 +45,13 @@ search_enabled: false
 socials_in_search: false
 posts_in_search: false
 
+header_pages:
+  - about.md
+  - profiles.md
+  - data.md
+  - news.md
+  - publications.md
+
 # Dimensions
 max_width: 930px
 
