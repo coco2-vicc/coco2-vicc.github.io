@@ -21,7 +21,7 @@ ninja.data = [{
           description: "COCO2 team members",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/team/";
           },
         },{id: "nav-publications",
           title: "publications",
