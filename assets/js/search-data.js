@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-home",
-    title: "home",
+    id: "nav-constraining-ocean-carbon-with-optimized-observing",
+    title: "Constraining Ocean Carbon with Optimized Observing",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
