@@ -1,6 +1,6 @@
 ---
 layout: profiles
-permalink: /people/
+permalink: /team/
 title: Team
 description: "COCO2 team members"
 nav: true
