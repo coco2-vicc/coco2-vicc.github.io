@@ -55,7 +55,7 @@ As part of this project, the ML techniques developed at Columbia/LDEO and CSIR/S
 
 ## Observing
 
-COCO<sub>2</sub> will deploy four USVs in the Southern Ocean during austral winter months from 2026 to 2030 to make direct measurements of air-sea CO<sub>2</sub> and related variables ([Sabine et al., 2020,](https://journals.ametsoc.org/view/journals/atot/37/8/jtechD200010.xml)). We will plan USV routes each year using OSSEs to determine which data can most improve machine learning based data products, with the first year guided by the design of [Heimdal et al. 2024](https://bg.copernicus.org/articles/21/2159/2024/) (Figure 1). The data collected in COCO<sub>2</sub> will be shared with minimal latency via the [SOCAT](https://socat.info/) data product so that everyone can work with them to reduce critical uncertainties in the ocean carbon sink. COCO<sub>2</sub> data will first appear in SOCAT version 2028.
+COCO<sub>2</sub> will deploy four USVs in the Southern Ocean during austral winter months from 2026 to 2030 to make direct measurements of air-sea CO<sub>2</sub> and related variables ([Sabine et al., 2020](https://journals.ametsoc.org/view/journals/atot/37/8/jtechD200010.xml)). We will plan USV routes each year using OSSEs to determine which data can most improve machine learning based data products, with the first year guided by the design of [Heimdal et al. 2024](https://bg.copernicus.org/articles/21/2159/2024/) (Figure 1). The data collected in COCO<sub>2</sub> will be shared with minimal latency via the [SOCAT](https://socat.info/) data product so that everyone can work with them to reduce critical uncertainties in the ocean carbon sink. COCO<sub>2</sub> data will first appear in SOCAT version 2028.
 
 
 
