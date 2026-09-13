@@ -177,8 +177,8 @@ terser:
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [McKinley]
+  first_name: [Galen]
 
   style: apa
   locale: en
