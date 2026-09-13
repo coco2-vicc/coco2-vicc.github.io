@@ -50,4 +50,7 @@ ninja.data = [{
           section: "News",},{id: "news-coco-project-meeting-in-november-2025-coco2-conducted-its-first-project-meeting-virtually",
           title: 'COCO₂ project meeting In November 2025, COCO2 conducted its first project meeting (virtually)....',
           description: "",
+          section: "News",},{id: "news-coco-at-osm-in-february-2026-several-coco2-team-members-attended-the-ocean-sciences-meeting-in-glasgow-scotland",
+          title: 'COCO₂ at OSM In February 2026, several COCO2 team members attended the Ocean...',
+          description: "",
           section: "News",},];
