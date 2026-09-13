@@ -16,7 +16,17 @@
         {% endif %}
         {% for item in news limit: news_limit %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            <th scope="row" style="width: 15%">{{ item.date | date: '%b %d, %Y' }}</th>
+            <td style="width: 15%">
+              {% if item.image %}
+                <img
+                  src="{{ item.image | relative_url }}"
+                  class="img-fluid rounded z-depth-1"
+                  alt="news thumbnail"
+                  style="max-height: 80px; object-fit: cover;"
+                >
+              {% endif %}
+            </td>
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
