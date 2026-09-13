@@ -47,4 +47,7 @@ ninja.data = [{
         },{id: "news-coco-representatives-at-vicc-launch-in-september-2025-seven-representatives-from-the-coco2-project-attended-the-schmidt-sciences-virtual-institute-for-the-carbon-cycle-convening-in-new-york",
           title: 'COCO₂ representatives at VICC launch In September 2025, seven representatives from the COCO2...',
           description: "",
+          section: "News",},{id: "news-coco-project-meeting-in-november-2025-coco2-conducted-its-first-project-meeting-virtually",
+          title: 'COCO₂ project meeting In November 2025, COCO2 conducted its first project meeting (virtually)....',
+          description: "",
           section: "News",},];
