@@ -1,41 +1,33 @@
 <div class="news">
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
-    <div
-      class="table-responsive"
-      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
-    >
-      <table class="table table-sm table-borderless align-middle">
+    <div class="table-responsive">
+      <table class="table table-borderless align-middle m-0">
         {% assign news = site.news | reverse %}
-        {% if include.limit and page.announcements.limit %}
-          {% assign news_limit = page.announcements.limit %}
-        {% else %}
-          {% assign news_limit = news_size %}
-        {% endif %}
-        {% for item in news limit: news_limit %}
-          <tr>
-            <!-- Column 1: Larger Image Thumbnail (No Date) -->
-            <td style="width: 35%; min-width: 180px;" class="pe-3">
+        {% for item in news %}
+          <tr class="d-flex align-items-center mb-4">
+            
+            <!-- Column 1: Forced Large Image -->
+            <td class="p-0 me-4" style="flex: 0 0 260px; max-width: 260px;">
               {% if item.image %}
                 <img
                   src="{{ item.image | relative_url }}"
                   class="img-fluid rounded z-depth-1"
                   alt="news thumbnail"
-                  style="max-height: 160px; width: 100%; object-fit: cover;"
+                  style="width: 260px; height: 170px; object-fit: cover; display: block;"
                 >
               {% endif %}
             </td>
 
-            <!-- Column 2: News Content -->
-            <td>
+            <!-- Column 2: News Text Content -->
+            <td class="p-0" style="flex: 1;">
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                <a class="news-title font-weight-bold" href="{{ item.url | relative_url }}">{{ item.title }}</a>
               {% endif %}
             </td>
+
           </tr>
         {% endfor %}
       </table>
