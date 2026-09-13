@@ -490,19 +490,22 @@ footer.sticky-bottom {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
+  background-color: var(--global-footer-bg-color);
 
-  /* hide image containers on small screens */
-@media (max-width: 780px) {
-  .footer-images {
-    opacity: 0;
+  .container {
+    position: relative;
+    text-align: center;
+    color: var(--global-footer-text-color);
   }
 
-  .footer-images-citation {
-    display: none;
-    font-weight: 100;
+  a {
+    color: var(--global-footer-link-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
   }
-}
-  
 }
 
 .gyre-map {
