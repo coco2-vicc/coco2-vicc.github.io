@@ -38,6 +38,18 @@ body.sticky-bottom-footer {
   }
 }
 
+/* Darker blue hyperlinks for main content body pages (About, Team, etc.) */
+.post-content a,
+.page-content a,
+article a {
+  color: #234b8b; /* Darker blue shade */
+
+  &:hover {
+    color: #193562; /* Even darker blue on hover */
+    text-decoration: underline;
+  }
+}
+
 // TODO: redefine content layout.
 
 /******************************************************************************
