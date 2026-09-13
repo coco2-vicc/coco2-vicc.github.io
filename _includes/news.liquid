@@ -16,24 +16,19 @@
         {% endif %}
         {% for item in news limit: news_limit %}
           <tr>
-            <!-- Column 1: Date -->
-            <th scope="row" style="width: 18%; min-width: 110px;">
-              {{ item.date | date: '%b %d, %Y' }}
-            </th>
-
-            <!-- Column 2: Image Thumbnail -->
-            <td style="width: 15%; min-width: 90px;">
+            <!-- Column 1: Larger Image Thumbnail (No Date) -->
+            <td style="width: 35%; min-width: 180px;" class="pe-3">
               {% if item.image %}
                 <img
                   src="{{ item.image | relative_url }}"
                   class="img-fluid rounded z-depth-1"
                   alt="news thumbnail"
-                  style="max-height: 70px; width: 100%; object-fit: cover;"
+                  style="max-height: 160px; width: 100%; object-fit: cover;"
                 >
               {% endif %}
             </td>
 
-            <!-- Column 3: News Content -->
+            <!-- Column 2: News Content -->
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
