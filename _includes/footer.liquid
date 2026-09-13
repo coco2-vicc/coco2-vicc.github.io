@@ -1,30 +1,31 @@
 {% capture footer_contents %}
-  <img src="{{ '/assets/img/schmidt-sciences-logo.png' | relative_url }}" height="90" width="225" alt="Schmidt Sciences logo"> <br>
-  {{ site.footer_text }}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.title }}. 
-  <br>
-  <small class="footer-images-citation">
-  {{ site.footer_text_after }}
-  </small>
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-  {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
+  <div class="text-center">
+    <img src="{{ '/assets/img/schmidt-sciences-logo.png' | relative_url }}" height="90" width="225" alt="Schmidt Sciences logo" class="d-block mx-auto mb-2">
+    {{ site.footer_text }}
+    &copy; Copyright {{ site.time | date: '%Y' }}
+    {{ site.title }}. 
+    <br>
+    <small class="footer-images-citation">
+    {{ site.footer_text_after }}
+    </small>
+    {% if site.impressum_path %}
+      <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+    {% endif %}
+    {% if site.last_updated %}
+      Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+    {% endif %}
+  </div>
 {% endcapture %}
 
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
-    <div class="container mt-0">
+    <div class="container text-center mt-0">
       {{ footer_contents }}
     </div>
   </footer>
 {% else %}
-
   <footer class="sticky-bottom mt-5" role="contentinfo">
-    <div class="container footer-center">
+    <div class="container text-center">
       {{ footer_contents }}
     </div>
   </footer>
