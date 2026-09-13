@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Constraining Ocean Carbon with Optimized Observing" 
+title: 
 permalink: /
 nav: false
 nav_order: 0
