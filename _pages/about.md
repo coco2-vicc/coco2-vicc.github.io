@@ -27,7 +27,7 @@ latest_posts:
   scrollable: true
   limit: 3
 ---
-This collaboration is led by Adrienne Sutton (NOAA Pacific Marine Environmental Laboratory) and Galen McKinley (Columbia University) with an international team from CSIR, CSIRO, Stellenbosch University, and University of Washington. This project is supported by Schmidt Sciences, LLC and is part of the [Virtual Institute for the Carbon Cycle] (https://www.schmidtsciences.org/vicc/). 
+This collaboration is led by Adrienne Sutton (NOAA Pacific Marine Environmental Laboratory) and Galen McKinley (Columbia University) with an international team from CSIR, CSIRO, Stellenbosch University, and University of Washington. This project is supported by Schmidt Sciences, LLC and is part of the [Virtual Institute for the Carbon Cycle](https://www.schmidtsciences.org/vicc/). 
 
 <p> <br> </p>
 
