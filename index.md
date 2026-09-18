@@ -13,7 +13,7 @@ subtitle:
   src="/assets/img/COCO_logo_FINAL.png" 
   alt="COCO2 Logo" 
   class="img-fluid mb-3" 
-  style="max-height: 120px; background-color: rgba(255, 255, 255, 0.25); padding: 12px 24px; border-radius: 16px; backdrop-filter: blur(4px); box-shadow: 0 4px 12px rgba(0,0,0,0.3);"
+  style="max-height: 120px; background-color: rgba(255, 255, 255, 0.6); padding: 12px 24px; border-radius: 16px; backdrop-filter: blur(4px); box-shadow: 0 4px 12px rgba(0,0,0,0.6);"
  >
 
   <h1 class="display-4 font-weight-bold mb-3" style="color: #ffffff; letter-spacing: -0.5px; text-shadow: 0 2px 8px rgba(0,0,0,0.6);">
