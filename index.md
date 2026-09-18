@@ -4,12 +4,17 @@ title:
 permalink: /
 nav: false
 nav_order: 0
-subtitle:  
+subtitle: 
 ---
 <div markdown="0" class="hero-banner text-center text-white d-flex align-items-center justify-content-center mb-5" style="background-color: #1a2a3a; background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('/assets/img/stormy-sea-iceberg.jpg'); background-position: center; background-size: cover; min-height: 480px; border-radius: 8px; padding: 3rem 1.5rem;">
   <div class="hero-content" style="max-width: 800px; margin: 0 auto;">
     
-    <img src="/assets/img/COCO_logo_FINAL.png" alt="COCO2 Logo" class="img-fluid mb-3" style="max-height: 120px; filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.4));">
+    <img 
+      src="/assets/img/COCO_logo_FINAL.png" 
+      alt="COCO2 Logo" 
+      class="img-fluid mb-3" 
+      style="max-height: 120px; filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.5));"
+    >
 
     <h1 class="display-4 font-weight-bold mb-3" style="color: #ffffff; letter-spacing: -0.5px; text-shadow: 0 2px 8px rgba(0,0,0,0.6);">
       Constraining Ocean Carbon with Optimized Observing
