@@ -17,11 +17,5 @@ subtitle:
     COCO<sub>2</sub> will reduce uncertainty in the ocean CO<sub>2</sub> sink by deploying advanced, model- and AI-informed adaptive observing missions in the Southern Ocean.
   </p>
 
-  <img 
-    src="/assets/img/COCO_logo_FINAL.png" 
-    alt="COCO2 Logo" 
-    class="img-fluid mb-3" 
-    style="max-height: 120px; background-color: rgba(255, 255, 255, 0.45); padding: 12px 24px; border-radius: 16px; backdrop-filter: blur(4px); box-shadow: 0 4px 12px rgba(0,0,0,0.45);"
-   >
   </div>
 </div>
