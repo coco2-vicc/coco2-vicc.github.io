@@ -6,7 +6,7 @@ nav: false
 nav_order: 0
 subtitle: 
 ---
-<div markdown="0" class="hero-banner text-center text-white d-flex align-items-center justify-content-center mb-5" style="background-color: #1a2a3a; background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('/assets/img/stormy-sea-iceberg.jpg'); background-position: center; background-size: cover; min-height: 480px; border-radius: 8px; padding: 3rem 1.5rem;">
+<div markdown="0" class="hero-banner text-center text-white d-flex align-items-center justify-content-center mb-5" style="background-color: #1a2a3a; background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/assets/img/stormy-sea-iceberg.jpg'); background-position: center; background-size: cover; min-height: 480px; border-radius: 8px; padding: 3rem 1.5rem;">
   <div class="hero-content" style="max-width: 800px; margin: 0 auto;">
     
   <h1 class="display-4 font-weight-bold mb-3" style="color: #ffffff; letter-spacing: -0.5px; text-shadow: 0 2px 8px rgba(0,0,0,0.6);">
