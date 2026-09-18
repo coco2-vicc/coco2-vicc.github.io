@@ -3,7 +3,6 @@ layout: about
 title: about
 permalink: /about
 subtitle: 
-description: "This collaboration is led by Adrienne Sutton (NOAA Pacific Marine Environmental Laboratory) and Galen McKinley (Columbia University) with an international team from CSIR, CSIRO, Stellenbosch University, and University of Washington. This project is supported by Schmidt Sciences, LLC and is part of the Virtual Institute for the Carbon Cycle (<a href='https://www.schmidtsciences.org/vicc/' target='_blank'>VICC</a>). NOAA and CSIRO via the Australian Antarctic Partnership Program also contribute in-kind salary supporting the project."
 nav: true
 nav_order: 1
 images:
@@ -28,6 +27,10 @@ latest_posts:
   scrollable: true
   limit: 3
 ---
+This collaboration is led by Adrienne Sutton (NOAA Pacific Marine Environmental Laboratory) and Galen McKinley (Columbia University) with an international team from CSIR, CSIRO, Stellenbosch University, and University of Washington. This project is supported by Schmidt Sciences, LLC and is part of the [Virtual Institute for the Carbon Cycle] (https://www.schmidtsciences.org/vicc/). 
+
+<p> <br> </p>
+
 The ocean is central to the global carbon cycle and provides a critical service to humanity by absorbing more than a quarter of anthropogenic CO<sub>2</sub> emissions every year. Despite tremendous efforts by the global scientific community, the lack of optimal observing tools to date has led to significant uncertainty in the ocean CO<sub>2</sub> sink and left gaps in our understanding of the underlying processes. COCO<sub>2</sub> will rapidly address the knowledge gaps currently preventing progress on constraining the ocean CO<sub>2</sub> sink by implementing a novel and scalable observing approach in the Southern Ocean. We will pair state-of-the-art technology in air-sea CO<sub>2</sub> observing on uncrewed surface vehicles (USVs) with adaptive, flexible observing design informed by our evolving understanding, explainable artificial intelligence methods, and Observing System Simulation Experiments (OSSEs) with numerical models. This new, open-source approach for optimizing ocean observing in the Southern Ocean has potential to accelerate solutions for a wide range of ocean observing challenges. COCO<sub>2</sub> will deliver critical data targeted to reduce the observation-based ocean CO<sub>2</sub> sink estimates in the annual Global Carbon Budget by 25% and advance our understanding of the processes driving air-sea CO<sub>2</sub> flux variability.
 
 <p> <br> </p>
