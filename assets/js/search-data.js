@@ -44,6 +44,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news";
           },
+        },{id: "nav-observing-mission-blog",
+          title: "Observing Mission Blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
         },{id: "news-coco-representatives-at-vicc-launch-in-september-2025-seven-representatives-from-the-coco2-project-attended-the-schmidt-sciences-virtual-institute-for-the-carbon-cycle-convening-in-new-york",
           title: 'COCO₂ representatives at VICC launch In September 2025, seven representatives from the COCO2...',
           description: "",
