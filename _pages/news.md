@@ -27,6 +27,11 @@ nav_order: 5
     <div class="text-muted small">September 24, 2026</div>
     <a href="https://www.saildrone.com/news/saildrone-embarks-multiyear-expedition-monitor-carbon-exchange-southern-ocean" target="_blank">Saildrone Announcement &rarr;</a>
   </li>
+    <li class="mb-3">
+    <strong>‘Robust little’ vessel begins treacherous 22,000km journey around Antarctica in the name of climate science</strong>
+    <div class="text-muted small">September 25, 2026</div>
+    <a href="https://www.theguardian.com/environment/2026/sep/26/saildrone-unmanned-hurricane-proof-ship-antarctica-climate-hobart" target="_blank">The Guardian &rarr;</a>
+  </li>
   <li class="mb-3">
     <strong>Schmidt Sciences Awards $45M to Narrow Carbon Cycle Knowledge Gap</strong>
     <div class="text-muted small">October 2, 2025</div>
