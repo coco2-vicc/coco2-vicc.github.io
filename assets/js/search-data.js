@@ -60,4 +60,7 @@ ninja.data = [{
           section: "News",},{id: "news-coco-at-osm-in-february-2026-several-coco2-team-members-attended-the-ocean-sciences-meeting-in-glasgow-scotland",
           title: 'COCO₂ at OSM In February 2026, several COCO2 team members attended the Ocean...',
           description: "",
+          section: "News",},{id: "news-coco-usv-launch-in-september-2026-coco2-team-members-at-csiro-worked-together-with-saildrone-to-launch-the-first-uncrewed-surface-vehicle-usv-of-the-project-from-hobart-australia-dr-elizabeth-shadwick-of-csiro-with-saildrone-technical-operations-engineer-haley-holcomb-and-fleet-service-operations-manager-jason-westenburg-during-the-deployment-photo-fraser-johnston",
+          title: 'COCO₂ USV launch In September 2026, COCO2 team members at CSIRO worked together...',
+          description: "",
           section: "News",},];
