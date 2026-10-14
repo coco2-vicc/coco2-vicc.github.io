@@ -13,6 +13,11 @@ nav_order: 5
 
 <ul class="post-list" style="list-style-type: none; padding-left: 0;">
   <li class="mb-3">
+    <strong>Saildrone research fleet to circle Antarctica for 5 years</strong>
+    <div class="text-muted small">October 13, 2026</div>
+    <a href="https://www.noaa.gov/news/saildrone-research-fleet-to-circle-antarctica-for-5-years" target="_blank">NOAA Announcement &rarr;</a>
+  </li>
+  <li class="mb-3">
     <strong>Ocean drones set to brave the Southern Ocean for science</strong>
     <div class="text-muted small">September 24, 2026</div>
     <a href="https://www.csiro.au/en/news/All/News/2026/September/Ocean-drones-set-to-brave-the-Southern-Ocean-for-science" target="_blank">CSIRO Announcement &rarr;</a>
