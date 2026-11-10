@@ -39,3 +39,5 @@ nav_order: 6
     </details>
   {% endfor %}
 </div>
+
+<p>Total posts detected: {{ site.posts | size }}</p>
