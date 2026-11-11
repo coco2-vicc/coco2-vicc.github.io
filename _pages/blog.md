@@ -35,8 +35,8 @@ nav_order: 6
         {{ yearGroup.name }} Updates
       </summary>
 
-     <div class="year-posts ps-2">
-        {% for post in yearGroup.items %}
+   <div class="year-posts ps-2">
+       {% for post in yearGroup.items %}
           <article class="mb-5">
             <header class="mb-2">
               <h3 class="h3 font-weight-bold">
@@ -45,15 +45,20 @@ nav_order: 6
               <p class="text-muted small">
                 {{ post.date | date: "%B %d, %Y" }}
               </p>
+              {% if post.author %}
+                <p class="text-muted small mb-0">
+                   By {{ post.author }}
+                </p>
+              {% endif %}
             </header>
 
-            <div class="post-content">
-              {{ post.content }}
-            </div>
-          </article>
+   <div class="post-content">
+      {{ post.content }}
+         </div>
+      </article>
 
-          {% unless forloop.last %}<hr class="my-4 text-muted" style="opacity: 0.25;">{% endunless %}
-        {% endfor %}
+   {% unless forloop.last %}<hr class="my-4 text-muted" style="opacity: 0.25;">{% endunless %}
+     {% endfor %}
       </div>
     </details>
   {% endfor %}
