@@ -43,13 +43,8 @@ nav_order: 6
                 <a href="{{ post.url | relative_url }}" class="text-decoration-none">{{ post.title }}</a>
               </h3>
               <p class="text-muted small">
-                {{ post.date | date: "%B %d, %Y" }}
+                   {{ post.date | date: "%B %d, %Y" }}{% if post.author %} • By {{ post.author }}{% endif %}
               </p>
-              {% if post.author %}
-                <p class="text-muted small mb-0">
-                   By {{ post.author }}
-                </p>
-              {% endif %}
             </header>
 
    <div class="post-content">
